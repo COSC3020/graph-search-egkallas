@@ -27,6 +27,8 @@ the function and run automatically when you commit through a GitHub action.
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
+The worst-case big $\Theta$ complexity of this implementations is $\Theta(V + E)$. The worst case would occur when the target node is not in the graph, and therefor it would have to interate through every vertices, and every edge connected to every vertex. 
+
 ## Bonus
 
 Implement and analyze breadth-first search.
